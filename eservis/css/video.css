@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+  }
+  .head {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  .wrapper {
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+  }
+  .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .box video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .content {
+    z-index: 99;
+    width: 400px;
+    margin: auto;
+  }
+  .content h1{
+    font-size: 50px;
+  }
+  

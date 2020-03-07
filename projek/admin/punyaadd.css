@@ -1,0 +1,19 @@
+.form-contact {
+    width:600px;
+    margin:20% auto;
+    padding:50px 50px 60px 50px;
+    background-color:white;
+    border-style: inset;
+	border-radius: 10px;
+	border-left: 6px solid red;	
+}
+.form-control{
+	border-style: inset;
+	border-left: 6px solid red;	
+   }
+   .btn-default {
+    color:red;
+    font-size:16px;
+    background-color:lightgreen;
+    
+}
